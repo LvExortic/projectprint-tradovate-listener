@@ -1,0 +1,16 @@
+{
+  "name": "projectprint-tradovate-listener",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Always-on Tradovate WebSocket listener for ProjectPrint",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "dependencies": {
+    "ws": "8.18.3"
+  }
+}
